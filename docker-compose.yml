@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  app:
+    container_name: server-client-app
+    image: golang:1.17-alpine
+    volumes:
+      - ./src:/go/src
+    command: >
+      /bin/sh -c "
+      tail -f > /dev/null"
