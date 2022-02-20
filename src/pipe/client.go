@@ -9,7 +9,7 @@ import (
 	"github.com/montanaflynn/stats"
 )
  
-var pipeFile = "pipe.log"
+var pipeFile = "../pipe.log"
  
 func main() {
     readDataFromPipe()

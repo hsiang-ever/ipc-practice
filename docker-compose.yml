@@ -7,4 +7,5 @@ services:
       - ./src:/go/src
     command: >
       /bin/sh -c "
+      apk add build-base;
       tail -f > /dev/null"

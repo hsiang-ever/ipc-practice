@@ -7,7 +7,7 @@ import (
     "syscall"
 )
  
-var pipeFile = "pipe.log"
+var pipeFile = "../pipe.log"
  
 func main() {
     writeDataToPipe()
