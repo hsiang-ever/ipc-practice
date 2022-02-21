@@ -5,6 +5,7 @@ services:
     image: golang:1.17-alpine
     volumes:
       - ./src:/go/src
+      - ./bin:/go/bin
     command: >
       /bin/sh -c "
       apk add build-base;
